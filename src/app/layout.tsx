@@ -24,8 +24,11 @@ export const metadata: Metadata = {
   description:
     "Astra gives premium laptops a second life — rigorously tested, professionally restored, and backed by real warranty. Better for your wallet, better for the planet.",
   icons: {
-    icon: "/astra.jpg",
-    apple: "/astra.jpg",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/astra_favicon.png", type: "image/png" },
+    ],
+    apple: "/astra_favicon.png",
   },
 };
 
