@@ -64,9 +64,9 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 shrink-0 text-astra-400" />
                 <span>
-                  14-B, Govind Marg, Adarsh Nagar,
+                  Flat No. 65, Jeen Ghumay, Road/Lane 3, Block 1, Somalpur, Ekta Nagar, 
                   <br />
-                  Jaipur – 302004, Rajasthan
+                  Ajmer, Rajasthan – 305001
                 </span>
               </li>
               <li className="flex items-start gap-3">
