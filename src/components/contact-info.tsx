@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { staggerContainer } from "./reveal";
 
-const ADDRESS = "14-B, Govind Marg, Adarsh Nagar, Jaipur, Rajasthan 302004";
+const ADDRESS = "Flat No. 65, Jeen Ghumay, Road/Lane 3, Block 1, Somalpur, Ekta Nagar, Ajmer, Rajasthan 305001";
 const MAP_SRC = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`;
 
 const cards = [
   {
     icon: MapPin,
     title: "Visit Us",
-    lines: ["14-B, Govind Marg, Adarsh Nagar,", "Jaipur – 302004, Rajasthan"],
+    lines: ["Flat No. 65, Jeen Ghumay, Road/Lane 3, Block 1, Somalpur, Ekta Nagar,", "Ajmer – 305001, Rajasthan"],
   },
   {
     icon: Phone,
