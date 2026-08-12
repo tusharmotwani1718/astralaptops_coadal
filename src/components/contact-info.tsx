@@ -11,7 +11,7 @@ const cards = [
   {
     icon: MapPin,
     title: "Visit Us",
-    lines: ["Flat No. 65, Jeen Ghumay, Road/Lane 3, Block 1, Somalpur, Ekta Nagar,", "Ajmer – 305001, Rajasthan"],
+    lines: ["365-B, JAMES COLONY, SEC-3, VIDHYADHAR NAGAR, JAIPUR, RAJASTHAN, Pin 302039"],
   },
   {
     icon: Phone,
@@ -98,7 +98,7 @@ export function ContactInfo() {
       >
         <div className="overflow-hidden rounded-2xl border border-border-subtle shadow-soft">
           <iframe
-            title="Astra office location"
+            title="Astra Laptops office location"
             src={MAP_SRC}
             className="h-80 w-full border-0 lg:h-full"
             loading="lazy"

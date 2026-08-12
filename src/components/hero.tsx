@@ -129,7 +129,7 @@ export function Hero() {
             <div className="relative aspect-video overflow-hidden rounded-lg bg-astra-900">
               <Image
                 src={astraMain}
-                alt="Astra billboard: Refurbished. Refined. Reliable."
+                alt="Astra Laptops billboard: Refurbished. Refined. Reliable."
                 fill
                 priority
                 sizes="(min-width: 1024px) 424px, 90vw"
