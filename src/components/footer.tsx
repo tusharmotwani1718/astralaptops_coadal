@@ -84,15 +84,22 @@ export function Footer() {
                   >
                     +91 73000 76692
                   </a>
+                  <a
+                    href="tel:+919214320820"
+                    className="transition-colors hover:text-white"
+                  >
+                    +91 92143 20820
+                  </a>
                 </span>
               </li>
+             
               <li className="flex items-center gap-3">
                 <Mail size={16} className="shrink-0 text-astra-400" />
                 <a
-                  href="mailto:astralaptops@gmail.com"
+                  href="mailto:manojsinghal2@gmail.com"
                   className="transition-colors hover:text-white"
                 >
-                  astralaptops@gmail.com
+                  manojsinghal2@gmail.com
                 </a>
               </li>
               <li className="pl-7 text-white/40">Mon – Sat, 9am – 6pm</li>
@@ -101,7 +108,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row">
-          <p>© {new Date().getFullYear()} Astra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Astra Laptops. All rights reserved.</p>
           <p>Refurbished with care.</p>
         </div>
       </div>
