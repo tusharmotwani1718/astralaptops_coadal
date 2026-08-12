@@ -85,7 +85,7 @@ export function Hero() {
             variants={item}
             className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-white/75 lg:mx-0"
           >
-            Astra gives premium laptops a second life — rigorously tested,
+            Astra Laptops gives premium laptops a second life — rigorously tested,
             professionally restored, and backed by a real warranty. Better
             for your wallet, better for the planet.
           </motion.p>
