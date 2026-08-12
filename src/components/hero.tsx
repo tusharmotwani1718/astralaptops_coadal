@@ -23,7 +23,7 @@ const item = {
 
 const chips = [
   { label: "40-Point Quality Check", top: "6%", side: "-left-6 lg:-left-10" },
-  { label: "6-Month Warranty", top: "auto", bottom: "12%", side: "-right-4 lg:-right-10" },
+  { label: "1-Month Warranty", top: "auto", bottom: "12%", side: "-right-4 lg:-right-10" },
 ];
 
 export function Hero() {
