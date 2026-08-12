@@ -20,9 +20,9 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  title: "Astra — Certified Refurbished Laptops",
+  title: "Astra Laptops — Certified Refurbished Laptops",
   description:
-    "Astra gives premium laptops a second life — rigorously tested, professionally restored, and backed by real warranty. Better for your wallet, better for the planet.",
+    "Astra Laptops gives premium laptops a second life — rigorously tested, professionally restored, and backed by real warranty. Better for your wallet, better for the planet.",
   icons: {
     icon: "/astra.jpg",
     apple: "/astra.jpg",
