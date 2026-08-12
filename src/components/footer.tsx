@@ -64,9 +64,9 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 shrink-0 text-astra-400" />
                 <span>
-                  Flat No. 65, Jeen Ghumay, Road/Lane 3, Block 1, Somalpur, Ekta Nagar, 
+                  365-B, JAMES COLONY, SEC-3, VIDHYADHAR NAGAR,
                   <br />
-                  Ajmer, Rajasthan – 305001
+                  JAIPUR, RAJASTHAN - 302039
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -92,7 +92,7 @@ export function Footer() {
                   </a>
                 </span>
               </li>
-             
+
               <li className="flex items-center gap-3">
                 <Mail size={16} className="shrink-0 text-astra-400" />
                 <a

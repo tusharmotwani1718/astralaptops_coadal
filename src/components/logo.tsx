@@ -15,7 +15,7 @@ export function Logo({ variant = "icon", className = "" }: LogoProps) {
       <Link
         href="/"
         scroll={false}
-        aria-label="Astra — home"
+        aria-label="Astra Laptops — home"
         className={`group inline-flex items-center ${className}`}
       >
         <Image
@@ -32,7 +32,7 @@ export function Logo({ variant = "icon", className = "" }: LogoProps) {
     <Link
       href="/"
       scroll={false}
-      aria-label="Astra — home"
+      aria-label="Astra Laptops — home"
       className={`group inline-flex items-center gap-2.5 ${className}`}
     >
       <span className="relative block h-11 w-11 overflow-hidden rounded-[10px] shadow-soft ring-1 ring-black/5 transition-transform duration-300 ease-out group-hover:scale-105 group-hover:-rotate-3">
