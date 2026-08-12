@@ -24,12 +24,12 @@ export function CtaBanner() {
             laptop that fits your needs and your budget.
           </p>
           <motion.a
-            href="mailto:astralaptops@gmail.com"
+            href="mailto:manojsinghal2@gmail.com"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             className="group mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-astra-700 shadow-lift transition-shadow hover:shadow-2xl"
           >
-            astralaptops@gmail.com
+            manojsinghal2@gmail.com
             <ArrowRight
               size={16}
               className="transition-transform duration-300 group-hover:translate-x-1"

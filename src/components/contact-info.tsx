@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { staggerContainer } from "./reveal";
 
-const ADDRESS = "Flat No. 65, Jeen Ghumay, Road/Lane 3, Block 1, Somalpur, Ekta Nagar, Ajmer, Rajasthan 305001";
+const ADDRESS = "365-B, JAMES COLONY, SEC-3, VIDHYADHAR NAGAR, JAIPUR, RAJASTHAN, Pin 302039";
 const MAP_SRC = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`;
 
 const cards = [
@@ -19,6 +19,7 @@ const cards = [
     links: [
       { href: "tel:+917300061569", label: "+91 73000 61569" },
       { href: "tel:+917300076692", label: "+91 73000 76692" },
+      { href: "tel:+919214320820", label: "+91 92143 20820" }
     ],
   },
   {
@@ -26,15 +27,15 @@ const cards = [
     title: "Email Us",
     links: [
       {
-        href: "mailto:astralaptops@gmail.com",
-        label: "astralaptops@gmail.com",
+        href: "mailto:manojsinghal2@gmail.com",
+        label: "manojsinghal2@gmail.com",
       },
     ],
   },
   {
     icon: Clock,
     title: "Business Hours",
-    lines: ["Mon – Sat, 9am – 6pm", "Sunday: Closed"],
+    lines: ["Mon - Sat, 9am - 6pm", "Sunday: Closed"],
   },
 ];
 
