@@ -12,7 +12,7 @@ const highlights = [
   },
   {
     icon: Timer,
-    title: "1-Month Warranty",
+    title: "1-Year Warranty",
     desc: "Real coverage, no fine print — repairs or replacement if anything goes wrong.",
   },
   {

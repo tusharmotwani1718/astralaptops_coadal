@@ -6,7 +6,7 @@ const points = [
   "Every laptop passes a 40-point hardware and cosmetic inspection",
   "Genuine, manufacturer-grade replacement components only",
   "All data securely wiped to industry-certified standards",
-  "1-month warranty with real, responsive support",
+  "1-year warranty with real, responsive support",
 ];
 
 const stats = [
