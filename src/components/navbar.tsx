@@ -50,7 +50,7 @@ export function Navbar() {
               href={link.href}
               className={`text-sm font-medium transition-colors duration-300 ${
                 solid
-                  ? "text-foreground/70 hover:text-astra-600"
+                  ? "text-foreground/70 hover:text-digital-depot-600"
                   : "text-white/80 hover:text-white"
               }`}
             >
@@ -60,7 +60,7 @@ export function Navbar() {
           <Link
             href={contactHref}
             scroll={false}
-            className="rounded-full bg-astra-600 px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-all duration-300 hover:bg-astra-700 hover:shadow-lift active:scale-95"
+            className="rounded-full bg-digital-depot-600 px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-all duration-300 hover:bg-digital-depot-700 hover:shadow-lift active:scale-95"
           >
             Get in Touch
           </Link>
@@ -116,7 +116,7 @@ export function Navbar() {
                     hidden: { opacity: 0, x: -12 },
                     visible: { opacity: 1, x: 0 },
                   }}
-                  className="rounded-lg px-3 py-3 text-base font-medium text-foreground/80 transition-colors hover:bg-surface hover:text-astra-600"
+                  className="rounded-lg px-3 py-3 text-base font-medium text-foreground/80 transition-colors hover:bg-surface hover:text-digital-depot-600"
                 >
                   {link.label}
                 </MotionLink>
@@ -129,7 +129,7 @@ export function Navbar() {
                   hidden: { opacity: 0, x: -12 },
                   visible: { opacity: 1, x: 0 },
                 }}
-                className="mt-2 rounded-full bg-astra-600 px-5 py-3 text-center text-base font-semibold text-white transition-colors hover:bg-astra-700"
+                className="mt-2 rounded-full bg-digital-depot-600 px-5 py-3 text-center text-base font-semibold text-white transition-colors hover:bg-digital-depot-700"
               >
                 Get in Touch
               </MotionLink>

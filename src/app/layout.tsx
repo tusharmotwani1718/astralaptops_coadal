@@ -20,12 +20,12 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  title: "Astra Laptops — Certified Refurbished Laptops",
+  title: "Digital Depot — Certified Refurbished Laptops",
   description:
-    "Astra Laptops gives premium laptops a second life — rigorously tested, professionally restored, and backed by real warranty. Better for your wallet, better for the planet.",
+    "Digital Depot gives premium laptops a second life — rigorously tested, professionally restored, and backed by real warranty. Better for your wallet, better for the planet.",
   icons: {
-    icon: "/astra.jpg",
-    apple: "/astra.jpg",
+    icon: "/digital_depot_new.png",
+    apple: "/digital_depot_new.png",
   },
 };
 

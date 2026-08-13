@@ -48,7 +48,7 @@ export function Highlights() {
             whileHover={{ y: -4 }}
             className="group rounded-xl p-4 transition-colors duration-300 hover:bg-surface"
           >
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-astra-50 text-astra-600 transition-colors duration-300 group-hover:bg-astra-600 group-hover:text-white">
+            <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-digital-depot-50 text-digital-depot-600 transition-colors duration-300 group-hover:bg-digital-depot-600 group-hover:text-white">
               <Icon size={20} strokeWidth={2} />
             </span>
             <h3 className="mt-4 font-display text-base font-semibold text-foreground">

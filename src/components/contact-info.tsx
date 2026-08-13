@@ -66,7 +66,7 @@ export function ContactInfo() {
             whileHover={{ y: -4 }}
             className="group rounded-xl p-4 transition-colors duration-300 hover:bg-surface"
           >
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-astra-50 text-astra-600 transition-colors duration-300 group-hover:bg-astra-600 group-hover:text-white">
+            <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-digital-depot-50 text-digital-depot-600 transition-colors duration-300 group-hover:bg-digital-depot-600 group-hover:text-white">
               <Icon size={20} strokeWidth={2} />
             </span>
             <h3 className="mt-4 font-display text-base font-semibold text-foreground">
@@ -78,7 +78,7 @@ export function ContactInfo() {
                     <a
                       key={link.href}
                       href={link.href}
-                      className="block transition-colors hover:text-astra-600"
+                      className="block transition-colors hover:text-digital-depot-600"
                     >
                       {link.label}
                     </a>
@@ -98,7 +98,7 @@ export function ContactInfo() {
       >
         <div className="overflow-hidden rounded-2xl border border-border-subtle shadow-soft">
           <iframe
-            title="Astra Laptops office location"
+            title="Digital Depot office location"
             src={MAP_SRC}
             className="h-80 w-full border-0 lg:h-full"
             loading="lazy"
@@ -117,7 +117,7 @@ export function ContactInfo() {
               <a
                 key={social.label}
                 href={social.href}
-                className="text-sm font-medium text-astra-600 underline-offset-4 transition-colors hover:text-astra-700 hover:underline"
+                className="text-sm font-medium text-digital-depot-600 underline-offset-4 transition-colors hover:text-digital-depot-700 hover:underline"
               >
                 {social.label}
               </a>

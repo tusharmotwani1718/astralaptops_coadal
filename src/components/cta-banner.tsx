@@ -8,11 +8,11 @@ export function CtaBanner() {
   return (
     <section
       id="contact"
-      className="relative isolate overflow-hidden bg-gradient-to-br from-astra-800 via-astra-700 to-astra-950 py-20"
+      className="relative isolate overflow-hidden bg-gradient-to-br from-digital-depot-800 via-digital-depot-700 to-digital-depot-950 py-20"
     >
       <div
         aria-hidden
-        className="animate-float pointer-events-none absolute -top-16 left-1/4 h-72 w-72 rounded-full bg-astra-400/20 blur-3xl"
+        className="animate-float pointer-events-none absolute -top-16 left-1/4 h-72 w-72 rounded-full bg-digital-depot-400/20 blur-3xl"
       />
       <div className="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
         <Reveal>
@@ -27,7 +27,7 @@ export function CtaBanner() {
             href="mailto:manojsinghal2@gmail.com"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            className="group mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-astra-700 shadow-lift transition-shadow hover:shadow-2xl"
+            className="group mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-digital-depot-700 shadow-lift transition-shadow hover:shadow-2xl"
           >
             manojsinghal2@gmail.com
             <ArrowRight

@@ -5,9 +5,9 @@ import { ContactHero } from "@/components/contact-hero";
 import { ContactInfo } from "@/components/contact-info";
 
 export const metadata: Metadata = {
-  title: "Get in Touch — Astra Laptops",
+  title: "Get in Touch — Digital Depot",
   description:
-    "Reach Astra Laptops by phone, email, or visit our Jaipur office. We're here to help with certified refurbished laptops.",
+    "Reach Digital Depot by phone, email, or visit our Jaipur office. We're here to help with certified refurbished laptops.",
 };
 
 export default function GetInTouchPage() {

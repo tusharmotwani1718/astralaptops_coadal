@@ -18,7 +18,7 @@ export function Brands() {
     <section id="brands" className="bg-surface py-24 lg:py-32">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-8">
         <Reveal>
-          <span className="text-sm font-semibold uppercase tracking-wider text-astra-600">
+          <span className="text-sm font-semibold uppercase tracking-wider text-digital-depot-600">
             Brands We Work With
           </span>
           <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
@@ -41,7 +41,7 @@ export function Brands() {
               <span
                 key={`${brand}-${i}`}
                 aria-hidden={i >= brands.length ? true : undefined}
-                className={`shrink-0 font-display text-2xl font-semibold text-foreground/35 transition-all duration-300 hover:scale-110 hover:text-astra-600 sm:text-3xl ${
+                className={`shrink-0 font-display text-2xl font-semibold text-foreground/35 transition-all duration-300 hover:scale-110 hover:text-digital-depot-600 sm:text-3xl ${
                   i >= brands.length ? "motion-reduce:hidden" : ""
                 }`}
               >

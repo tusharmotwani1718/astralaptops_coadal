@@ -21,7 +21,7 @@ const item = {
 
 export function ContactHero() {
   return (
-    <section className="relative isolate overflow-hidden bg-gradient-to-br from-astra-950 via-astra-700 to-astra-500 pt-36 pb-20 lg:pt-44 lg:pb-24">
+    <section className="relative isolate overflow-hidden bg-gradient-to-br from-digital-depot-950 via-digital-depot-700 to-digital-depot-500 pt-36 pb-20 lg:pt-44 lg:pb-24">
       {/* Dot-grid texture */}
       <div
         aria-hidden
@@ -36,11 +36,11 @@ export function ContactHero() {
       {/* Floating brand-blue blobs */}
       <div
         aria-hidden
-        className="animate-float pointer-events-none absolute -top-20 -left-20 h-80 w-80 rounded-full bg-astra-400/30 blur-3xl"
+        className="animate-float pointer-events-none absolute -top-20 -left-20 h-80 w-80 rounded-full bg-digital-depot-400/30 blur-3xl"
       />
       <div
         aria-hidden
-        className="animate-float pointer-events-none absolute -bottom-24 -right-16 h-96 w-96 rounded-full bg-astra-300/20 blur-3xl"
+        className="animate-float pointer-events-none absolute -bottom-24 -right-16 h-96 w-96 rounded-full bg-digital-depot-300/20 blur-3xl"
         style={{ animationDelay: "1.5s" }}
       />
 
