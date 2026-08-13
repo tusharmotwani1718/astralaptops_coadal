@@ -9,18 +9,18 @@
 }
 
 @theme {
-  /* Astra brand ramp — sampled from the logo's ultramarine (#0f21b1 = astra-600) */
-  --color-astra-50: #f5f5fd;
-  --color-astra-100: #eaecfa;
-  --color-astra-200: #d1d5f5;
-  --color-astra-300: #a5aef3;
-  --color-astra-400: #5f6ff1;
-  --color-astra-500: #142ceb;
-  --color-astra-600: #0f21b1;
-  --color-astra-700: #0c1a8d;
-  --color-astra-800: #09156e;
-  --color-astra-900: #070f52;
-  --color-astra-950: #060b35;
+  /* digital-depot brand ramp — sampled from the logo's ultramarine (#0f21b1 = digital-depot-600) */
+  --color-digital-depot-50: #f5f5fd;
+  --color-digital-depot-100: #eaecfa;
+  --color-digital-depot-200: #d1d5f5;
+  --color-digital-depot-300: #a5aef3;
+  --color-digital-depot-400: #5f6ff1;
+  --color-digital-depot-500: #142ceb;
+  --color-digital-depot-600: #0f21b1;
+  --color-digital-depot-700: #0c1a8d;
+  --color-digital-depot-800: #09156e;
+  --color-digital-depot-900: #070f52;
+  --color-digital-depot-950: #060b35;
 
   /* Sparing accent for trust/eco signals (warranty, certified, sustainable) */
   --color-mint-500: #12b76a;
@@ -95,13 +95,13 @@ body {
 }
 
 ::selection {
-  background: var(--color-astra-600);
+  background: var(--color-digital-depot-600);
   color: #ffffff;
 }
 
 /* Accessible focus ring that matches the brand instead of the browser default */
 :focus-visible {
-  outline: 2px solid var(--color-astra-500);
+  outline: 2px solid var(--color-digital-depot-500);
   outline-offset: 2px;
   border-radius: 2px;
 }

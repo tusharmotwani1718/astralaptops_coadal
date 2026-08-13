@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, ShieldCheck } from "lucide-react";
-import astraMain from "../../public/astra_main.png";
+import digitalDepotBanner from "../../public/digital_depot_banner.jpeg";
 
 const container = {
   hidden: {},
@@ -30,7 +30,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate overflow-hidden bg-linear-to-br from-astra-950 via-astra-700 to-astra-500 pt-36 pb-24 lg:pt-44 lg:pb-32"
+      className="relative isolate overflow-hidden bg-linear-to-br from-digital-depot-950 via-digital-depot-700 to-digital-depot-500 pt-36 pb-24 lg:pt-44 lg:pb-32"
     >
       {/* Dot-grid texture */}
       <div
@@ -46,11 +46,11 @@ export function Hero() {
       {/* Floating brand-blue blobs */}
       <div
         aria-hidden
-        className="animate-float pointer-events-none absolute -top-24 -left-24 h-96 w-96 rounded-full bg-astra-400/30 blur-3xl"
+        className="animate-float pointer-events-none absolute -top-24 -left-24 h-96 w-96 rounded-full bg-digital-depot-400/30 blur-3xl"
       />
       <div
         aria-hidden
-        className="animate-float pointer-events-none absolute -bottom-32 -right-16 h-112 w-md rounded-full bg-astra-300/20 blur-3xl"
+        className="animate-float pointer-events-none absolute -bottom-32 -right-16 h-112 w-md rounded-full bg-digital-depot-300/20 blur-3xl"
         style={{ animationDelay: "1.5s" }}
       />
 
@@ -85,7 +85,7 @@ export function Hero() {
             variants={item}
             className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-white/75 lg:mx-0"
           >
-            Astra Laptops gives premium laptops a second life — rigorously tested,
+            Digital Depot gives premium laptops a second life — rigorously tested,
             professionally restored, and backed by a real warranty. Better
             for your wallet, better for the planet.
           </motion.p>
@@ -98,7 +98,7 @@ export function Hero() {
               href="#brands"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-astra-700 shadow-lift transition-shadow hover:shadow-2xl"
+              className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-digital-depot-700 shadow-lift transition-shadow hover:shadow-2xl"
             >
               Explore Brands
               <ArrowRight
@@ -118,18 +118,18 @@ export function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Laptop mockup showcasing the Astra billboard visual */}
+        {/* Laptop mockup showcasing the digital-depot billboard visual */}
         <motion.div
           initial={{ opacity: 0, y: 30, scale: 0.96 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="relative mx-auto w-full max-w-md lg:mx-0"
         >
-          <div className="relative rounded-2xl border border-white/10 bg-gradient-to-br from-astra-900 to-astra-950 p-3 shadow-2xl">
-            <div className="relative aspect-video overflow-hidden rounded-lg bg-astra-900">
+          <div className="relative rounded-2xl border border-white/10 bg-gradient-to-br from-digital-depot-900 to-digital-depot-950 p-3 shadow-2xl">
+            <div className="relative aspect-video overflow-hidden rounded-lg bg-digital-depot-900">
               <Image
-                src={astraMain}
-                alt="Astra Laptops billboard: Refurbished. Refined. Reliable."
+                src={digitalDepotBanner}
+                alt="Digital Depot billboard: Refurbished. Refined. Reliable."
                 fill
                 priority
                 sizes="(min-width: 1024px) 424px, 90vw"
@@ -152,8 +152,8 @@ export function Hero() {
             </div>
             <div className="mx-auto mt-3 h-1.5 w-16 rounded-full bg-white/10" />
           </div>
-          <div className="mx-auto h-3 w-[85%] rounded-b-2xl bg-gradient-to-b from-astra-800 to-astra-900 shadow-xl" />
-          <div className="mx-auto h-1.5 w-[92%] rounded-b-xl bg-astra-950/80" />
+          <div className="mx-auto h-3 w-[85%] rounded-b-2xl bg-gradient-to-b from-digital-depot-800 to-digital-depot-900 shadow-xl" />
+          <div className="mx-auto h-1.5 w-[92%] rounded-b-xl bg-digital-depot-950/80" />
 
           {chips.map((chip, i) => (
             <motion.div
@@ -161,7 +161,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 12, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.9 + i * 0.15 }}
-              className={`animate-float absolute ${chip.side} hidden items-center gap-2 rounded-xl bg-white px-3.5 py-2.5 text-xs font-semibold text-astra-700 shadow-lift sm:flex`}
+              className={`animate-float absolute ${chip.side} hidden items-center gap-2 rounded-xl bg-white px-3.5 py-2.5 text-xs font-semibold text-digital-depot-700 shadow-lift sm:flex`}
               style={{
                 top: chip.top,
                 bottom: chip.bottom,

@@ -11,7 +11,7 @@ const socials = [
 
 export function Footer() {
   return (
-    <footer className="bg-astra-950 text-white/60">
+    <footer className="bg-digital-depot-950 text-white/60">
       <div className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
           <div>
@@ -62,7 +62,7 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-white">Get in touch</h3>
             <ul className="mt-4 space-y-4 text-sm text-white/50">
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="mt-0.5 shrink-0 text-astra-400" />
+                <MapPin size={16} className="mt-0.5 shrink-0 text-digital-depot-400" />
                 <span>
                   365-B, JAMES COLONY, SEC-3, VIDHYADHAR NAGAR,
                   <br />
@@ -70,7 +70,7 @@ export function Footer() {
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <Phone size={16} className="mt-0.5 shrink-0 text-astra-400" />
+                <Phone size={16} className="mt-0.5 shrink-0 text-digital-depot-400" />
                 <span className="flex flex-col gap-1">
                   <a
                     href="tel:+917300061569"
@@ -94,7 +94,7 @@ export function Footer() {
               </li>
 
               <li className="flex items-center gap-3">
-                <Mail size={16} className="shrink-0 text-astra-400" />
+                <Mail size={16} className="shrink-0 text-digital-depot-400" />
                 <a
                   href="mailto:manojsinghal2@gmail.com"
                   className="transition-colors hover:text-white"
@@ -108,7 +108,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row">
-          <p>© {new Date().getFullYear()} Astra Laptops. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Digital Depot. All rights reserved.</p>
           <p>Refurbished with care.</p>
         </div>
       </div>
