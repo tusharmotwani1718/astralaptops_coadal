@@ -76,9 +76,7 @@ export function Hero() {
             variants={item}
             className="mt-6 font-display text-4xl font-semibold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl"
           >
-            Performance you trust.
-            <br />
-            Prices you&apos;ll love.
+            Digital Depot
           </motion.h1>
 
           <motion.p
