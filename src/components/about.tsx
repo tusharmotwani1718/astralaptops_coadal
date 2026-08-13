@@ -13,7 +13,7 @@ const stats = [
   { value: 12000, suffix: "+", label: "Laptops refurbished" },
   { value: 98, suffix: "%", label: "Customer satisfaction" },
   { value: 40, suffix: "-pt", label: "Quality inspection" },
-  { value: 6, suffix: "mo", label: "Warranty coverage" },
+  { value: 1, suffix: "yr", label: "Warranty coverage" },
 ];
 
 export function About() {
