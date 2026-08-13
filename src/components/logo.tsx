@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import digitalDepot from "../../public/digital_depot_3.png";
 import digitalDepotNew from "../../public/digital_depot_new.png";
-import digitalDepot from "../../public/digital_depot.png";
 
 type LogoProps = {
   /** "icon" — badge mark, for light/solid surfaces. "wordmark" — white lockup, for transparent/dark surfaces. */
